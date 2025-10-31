@@ -1,0 +1,83 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "weight": 3,
+                    "type": "minecraft:empty"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "type": "fuse"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Fuse",
+                                "color": "#965806",
+                                "bold": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "floats": {
+                                "values": [
+                                    1201
+                                ],
+                                "mode": "append"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "floats": {
+                                "values": [
+                                    1300
+                                ],
+                                "mode": "append"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "type": "key"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Key",
+                                "color": "#878787",
+                                "bold": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:max_stack_size": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

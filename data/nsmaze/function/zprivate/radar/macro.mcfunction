@@ -1,0 +1,1 @@
+$data modify entity @s transformation.scale set value [$(SCALE)f, $(SCALE)f, $(SCALE)f]

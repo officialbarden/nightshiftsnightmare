@@ -1,0 +1,3 @@
+$execute as @e[tag=activity_level,tag=van_screen.bunker_stats.ui,type=text_display] if score activity game.v matches ..300 run data modify entity @s text set value {text:"$(activity_level)",color:"white"}
+$execute as @e[tag=activity_level,tag=van_screen.bunker_stats.ui,type=text_display] if score activity game.v matches 301..500 run data modify entity @s text set value {text:"$(activity_level)",color:"yellow"}
+$execute as @e[tag=activity_level,tag=van_screen.bunker_stats.ui,type=text_display] if score activity game.v matches 501.. run data modify entity @s text set value {text:"$(activity_level)",color:"red"}

@@ -1,0 +1,17 @@
+{
+	"type": "nsmaze:type",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "nsmaze:nightmare",
+			"lakes": false,
+			"features": false,
+			"layers": [
+				{
+					"height": 0,
+					"block": "air"
+				}
+			]
+		}
+	}
+}

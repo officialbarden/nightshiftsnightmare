@@ -1,0 +1,1 @@
+$data remove storage ns:storage VAN_PLAYER_STATS.INSIDE[{"username":"$(username)"}]

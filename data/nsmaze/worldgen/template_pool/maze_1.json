@@ -1,0 +1,65 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "nsmaze:4way",
+				"processors": "minecraft:empty",
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "nsmaze:hall_1",
+				"processors": "minecraft:empty",
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "nsmaze:hall_2",
+				"processors": "minecraft:empty",
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "nsmaze:room_1",
+				"processors": "minecraft:empty",
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "nsmaze:room_2",
+				"processors": "minecraft:empty",
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "nsmaze:dead_end",
+				"processors": "minecraft:empty",
+				"override_liquid_settings": "ignore_waterlogging"
+			}
+		}
+	]
+}

@@ -1,0 +1,1 @@
+$data modify storage ns:storage temp.macro.O2.time set value "$(0):$(1):$(2)"

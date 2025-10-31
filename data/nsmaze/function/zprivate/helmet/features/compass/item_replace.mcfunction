@@ -1,0 +1,1 @@
+$item replace entity @s[tag=inside,tag=through.elevator_1.bunker] weapon.offhand with compass[hide_tooltip={},enchantment_glint_override=false,lodestone_tracker={target:{dimension:"nsmaze:nightmare",pos:[I;$(x),$(y),$(z)]},tracked:false}] 1
